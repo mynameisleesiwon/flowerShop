@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.MainHeader{
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  margin-top: 70px;
+}
+/* .MainHeader1{
+  width: 20%;
+  background-color: #DCCABC;
+} */
+.MainHeader2{
+  background-repeat: no-repeat;
+  background-image: url("./images/mainPic2.png");
+  /* background-color: beige; */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MainHeader2T{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 27px;
+  font-weight: 800;
+}
+
+
+/* .MainHeader3{
+  width:20%;
+  background-color: #DCCABC;
+} */
+
+
+/* 두번째 해더 */
+.MainSecondHeaderItems{
+  background-color: whitesmoke;
+  height: 900px;
+}
+.MainSecondHeaderItems span{
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 800;
+  font-size: 23px;
+}
+.MainSecondHeaderItems h1{
+  margin-top: 1px;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 90px;
+}
+.MainSecondHeaderItemsPics{
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-around;
+}
+.MainSecondHeaderItemsPics img{
+  width: 300px;
+  height: 400px;
+}
+.MainSecondHeaderItemsFlower,
+.MainSecondHeaderItemsGrass,
+.MainSecondHeaderItemsPackage{
+  display: flex;
+  flex-direction: column;
+}
+.MainSecondHeaderItemsFlower img{
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  border: 5px solid blanchedalmond;
+}
+.MainSecondHeaderItemsGrass img{
+  border-top-left-radius: 130px;
+  border-top-right-radius: 130px;
+  border:5px solid blanchedalmond;
+}
+.MainSecondHeaderItemsPackage img{
+  border-top-left-radius: 130px;
+  border-top-right-radius: 130px;
+  border:5px solid blanchedalmond;
+}
+/* 
+.reserve-store{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F5F5F5;
+}
+.MainSecondSide{
+  width: 5%;
+  background-color: lightcoral;
+}
+.reserve-store .inner {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.reserve-store .medal {
+  width: 400px;
+  height: 500px;
+  perspective: 600px;
+}
+.reserve-store .medal .front,
+.reserve-store .medal .back {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.reserve-store .medal .front {
+  transform: rotateY(0deg);
+}
+.reserve-store .medal:hover .front {
+  transform: rotateY(180deg);
+}
+.reserve-store .medal .back {
+  transform: rotateY(-180deg);
+}
+.reserve-store .medal:hover .back {
+  transform: rotateY(0deg);
+  background-color: #FEE6DA;
+  border: 3px solid #E6cdba;
+  width: 500px;
+  height: 300px;
+}
+.reserve-store .medal .back .btn {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+} */
+.MainPopularBox{
+  background-color: #E6cdba;
+  height: 700px;
+}
+
+/* 인기상품 컴포넌트 */
+.MainPopularBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 600px;
+}
+.MainPopularBox h2{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+}
+.MainPopularBoxPics{
+  padding-top: 7px;
+  display: flex;
+  justify-content: space-around;
+}
+.MainPopularBoxPics img{
+  width: 300px;
+  height: 250px;
+  border: 3px solid sandybrown;
+}
+
+.MainPopularBoxLink span{
+  font-weight: 800;
+  font-size: 37px;
+}
+
+/* 홈페이지 카드부분 */
+.MainSecondCards{
+  height: 1200px;
+  display: flex;
+}
+.MainSecondCardsFirst{
+  border-right: 2px solid green;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.MainSecondCardsFirst:first-child{
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+}
+.MainSecondCardsSecond{
+  border-left :2px solid green;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.MainSecondCards img{
+  height: 370px;
+}
+.MainSecondCardsSecondFirstImg{
+  margin-bottom: 100px;
+}
+.MainSecondCardsSecondSecondImg{
+  margin-bottom: 200px;
+}
+
+
+/* 메인 화면 전환 페이지 */
+.swiper {
+  margin-top: 50px;
+  width: 90%;
+  height: 700px;
+  margin-bottom: 0px;
+}
+
+.swiper-slide {
+  background: white;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 60%;
+  object-fit: 100%;
+  height: auto;
+}
+
+
+/* 이달의 꽃 */
+.mainpopularTs{
+  background-color: beige;
+  height: 600px;
+}
+.mainpopularT{
+  text-align: center;
+}
+
+.mainpopularT h2{
+  padding-top: 50px;
+  font-size: 40px;
+}
+.mainpopularT p{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.mainpopulari{
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+
+/* 홈페이지 change */
+.HomepageChanges{
+  background-color: #F5F5F5;
+}
+.HomepageChanges h2{
+  text-align: center;
+  font-size: 57px;
+  font-weight: 700;
+  margin-bottom: 70px;
+  padding-top: 70px;
+}
+
+.mainChange{
+  display: flex;
+  justify-content: center;
+}
+.HomepageChangeBoxFirst{
+  display: flex;
+  justify-content: space-around;
+  background-color: #E6cdba;
+  height: 300px;
+}
+.HomepageChangeBoxFirst h3{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 27px;
+  margin-right:  40px;
+} 
+
+.HomepageChangeBoxSecond{
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  background-color: beige;
+}
+.HomepageChangeBoxSecond h3{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 27px;
+  margin-right:  40px;
+}
+.HomepageChangeBtnF{
+  width: 120px;
+  height: 70px;
+  font-size: 27px;
+  cursor: pointer;
+  background-color: burlywood;
+  color: whitesmoke;
+  border: none;
+  transition: 0.5s ease-out;
+  margin-bottom: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.HomepageChangeBtnF:hover{
+  font-size: 37px;
+  transition: 0.5s ease-out;
+}
+.HomepageChangeBtnF:focus{
+  font-size: 37px;
+  background-color: sandybrown;
+}
+.HomepageChangeBtnS{
+  width: 120px;
+  height: 70px;
+  font-size: 27px;
+  cursor: pointer;
+  background-color: sienna;
+  color: white;
+  border: none;
+  transition: 0.5s ease-out;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.HomepageChangeBtnS:hover{
+  font-size: 37px;
+  transition: 0.5s ease-out;
+}
+.HomepageChangeBtnS:focus{
+  font-size: 37px;
+  background-color: brown;
+}
+.mainBox{
+  display: flex;
+  justify-content: center;
+}
+.mainBoxss{
+  width: 60%;
+}
+
+/* footer */
+
+footer {
+  background-color: #272727;
+  border-top: 1px solid #333;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  height: 300px;
+}
+footer .inner{
+  height: 100px;
+}
+footer .menu {
+  display: flex;
+  justify-content: center;
+}
+footer .menu li {
+  position: relative;
+  list-style: none;
+}
+footer .menu li::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: #555;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+  margin: auto;
+}
+footer .menu li:last-child::before {
+  display: none;
+}
+footer .menu li a {
+  display: block;
+  color: #CCC;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+footer .btn-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+footer .btn-group .btn {
+  font-size: 12px;
+  margin-right: 10px;
+}
+footer .btn-group .btn:last-child {
+  margin-right: 0;
+}
+footer .info {
+  margin-top: 30px;
+  text-align: center;
+}
+footer .info span {
+  margin-right: 20px;
+  color: #999;
+  font-size: 12px;
+}
+footer .info span:last-child {
+  margin-right: 0;
+}
+footer .copyright {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+footer .logo {
+  margin: 30px auto 0;
+}
+.footerA{
+  margin-right: 9px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.BBBBBB{
+  margin-top: 100px;
+}
+.CheckoutBtn{
+  border: none;
+  background-color: tomato;
+  color: white;
+  border-radius: 5px;
+  height: 37px;
+  font-weight: 700;
+}

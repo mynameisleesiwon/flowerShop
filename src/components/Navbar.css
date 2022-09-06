@@ -1,0 +1,54 @@
+.MainNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfcaca;
+    border-bottom: 1px solid #c8c8c8;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+.MainLogo{
+    color: white;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.MainLogo img{
+    width: 270px;
+    height: 70px;
+}
+.MainMenu{
+    padding-right: 30px;
+    margin: 30px;
+}
+.MainMenu button{
+    border: none;
+    background-color: #cfcaca;
+    font-size: 25px;
+    color: black;
+    
+}
+/* .MainMenu button:hover{
+    color: ghostwhite;
+    font-size: 35px;
+} */
+.MainMenu button:focus{
+    color: green
+}
+.MainMenu span{
+    font-size: 20px;
+    font-weight: 700;
+    color: burlywood;
+}
+
+.navPerson{
+    width: 30px;
+    padding-bottom: 3px;
+}
+
+.MainMenuFBtn{
+    padding-right: 7px;
+}

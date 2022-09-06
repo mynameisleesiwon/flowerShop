@@ -1,0 +1,135 @@
+.LoginForms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid beige;
+    padding-right: 47px;
+}
+.LoginForms h1{
+    margin-bottom: 70px;
+    font-size: 47px;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+
+
+
+.ID{
+    border: none;
+    border-bottom: 3px solid grey;
+    height: 20px;
+    width: 200px;
+    background-color: whitesmoke(197, 191, 191);
+}
+.ID:focus{
+    outline: none;
+
+}
+.PW{
+    border: none;
+    border-bottom: 3px solid grey;
+    height: 20px;
+    width: 200px;
+    background-color: whitesmoke(197, 191, 191);
+}
+.PW:focus{
+    outline: none;
+}
+
+.login{
+    width: 200px;
+    height: 47px;
+    color: black;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,  sans-serif;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.NaverL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 183px;
+    height: 45px;
+    background-color: #03C75A;
+    border-radius: 5px 5px;
+    /* color: white; */
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.N{
+    color: white;
+    font-weight: 1000;
+    font-size: large;
+}
+.nlog{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    padding-right: 25px;
+}
+.kakaoL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 183px;
+    height: 45px;
+    background-color: #FEE500;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.icon{
+    color: #000000;
+    font-weight: 300;
+}
+.klog{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 800;
+    padding-right: 25px;
+}
+.LoginA a {
+    text-decoration: none;
+    color: black;
+}
+.facebookL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 183px;
+    height: 45px;
+    background-color: #3B5998;
+    border-radius: 5px 5px;
+    cursor: pointer;
+}
+.f{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    font-size: large;
+}
+.flog{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    padding-right: 15px;
+}
+.LoginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+.loginimage{
+    width: auto;
+    height: 600px;
+    margin-left: 70px;
+    border-radius: 17px;
+}
